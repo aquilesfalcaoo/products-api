@@ -1,1 +1,1 @@
-web: npm run start
+start": "node dist/server.js
