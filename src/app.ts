@@ -7,10 +7,13 @@ import cors from "cors";
 import path from "path";
 
 dotenv.config();
+const isProduction = process.env.NODE_ENV === "production";
 
 const app = express();
 const corsOptions = {
-  origin: "https://products-alpha-lilac.vercel.app",
+  origin: isProduction
+    ? "https://products-alpha-lilac.vercel.app"
+    : "http://localhost:5173",
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
 };
