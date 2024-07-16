@@ -30,3 +30,6 @@ $ bun run dev
 # Abra a aplicação
 $ http://localhost:3000/api-docs/
 ```
+
+> [!WARNING]
+> Abra o arquivo .env.example para pegar os dados do banco de dados e depois crie o arquivo .env na raiz do projeto para colar os dados e rodar a aplicação localmente.
