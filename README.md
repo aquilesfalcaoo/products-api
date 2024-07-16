@@ -15,7 +15,7 @@
 Para rodar esse projeto e clonar essa aplicação, você vai precisar do [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/) e [Bun](https://bun.sh/) instalado em sua máquina. A partir de sua linha de comando:
 
 Deploy: https://app-products-api-e7508e4ab5de.herokuapp.com/api-docs/ <br>
-Repositório Front-end com React.js: https://github.com/aquilesfalcaoo/products-api
+Repositório Front-end com React.js: https://github.com/aquilesfalcaoo/products
 
 ```bash
 # Clone o repositório
