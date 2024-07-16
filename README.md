@@ -10,7 +10,10 @@
   <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" />
 </p>
 
-## Como Usar
+> [!WARNING]
+> Abra o arquivo .env.example para pegar os dados do banco de dados e depois crie o arquivo .env na raiz do projeto para colar os dados e rodar a aplicação localmente.
+
+## Instruções
 
 Para rodar esse projeto e clonar essa aplicação, você vai precisar do [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/) e [Bun](https://bun.sh/) instalado em sua máquina. A partir de sua linha de comando:
 
@@ -30,6 +33,3 @@ $ bun run dev
 # Abra a aplicação
 $ http://localhost:3000/api-docs/
 ```
-
-> [!WARNING]
-> Abra o arquivo .env.example para pegar os dados do banco de dados e depois crie o arquivo .env na raiz do projeto para colar os dados e rodar a aplicação localmente.
