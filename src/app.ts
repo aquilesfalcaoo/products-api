@@ -18,6 +18,8 @@ const corsOptions = {
   allowedHeaders: ["Content-Type", "Authorization"],
 };
 
+console.log("corsOptions:", corsOptions);
+
 app.use(cors(corsOptions));
 app.use(express.json());
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
